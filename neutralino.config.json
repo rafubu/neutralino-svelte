@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/neutralinojs/neutralinojs/main/schemas/neutralino.config.schema.json",
-  "applicationId": "js.neutralino.sample",
-  "version": "1.0.0",
+  "applicationId": "js.neutralino.pos",
+  "version": "0.0.1",
   "defaultMode": "window",
   "port": 0,
   "documentRoot": "/public/",
@@ -74,9 +74,9 @@
   },
   "cli": {
     "binaryName": "pos",
-    "resourcesPath": "/resources/",
+    "resourcesPath": "/public/",
     "extensionsPath": "/extensions/",
-    "clientLibrary": "/resources/js/neutralino.js",
+    "clientLibrary": "/public/neutralino.js",
     "binaryVersion": "5.1.0",
     "clientVersion": "5.1.0"
   }
